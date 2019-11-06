@@ -23,7 +23,7 @@ class ReviewTableViewController: UITableViewController {
     
     @IBOutlet var starButtonCollection: [UIButton]!
     
-    var deleteThisLater = 10
+    var deleteThisLater = 101
     
     var rating = 0 {
         didSet {
