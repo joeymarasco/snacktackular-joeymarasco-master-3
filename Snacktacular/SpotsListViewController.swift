@@ -22,7 +22,7 @@ class SpotsListViewController: UIViewController {
     var authUI: FUIAuth!
     var locationManager: CLLocationManager!
     var currentLocation: CLLocation!
-    var deleteThisValueLater = 10
+    var deleteThisValueLater = 1000
     
     override func viewDidLoad() {
         super.viewDidLoad()
